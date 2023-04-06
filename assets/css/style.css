@@ -706,8 +706,8 @@ hr {
   transition: 0.7s;
 }
 .blog-sec .section-head .blog-btn:hover {
-  background-color: #6600CC;
-  color: #fff;
+  background-color: #ffffff;
+  color: #cc1616;
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
@@ -796,7 +796,7 @@ hr {
   color: #797979;
 }
 .blog-sec .blog-cards-wrap .card .card-body .blog-btn {
-  color: #6600CC;
+  color: #cc1616;
   font-weight: 400;
   font-size: 14px;
   cursor: pointer;
@@ -1880,7 +1880,8 @@ hr {
   border-top: none;
   border-bottom: 1px solid;
   border-image-slice: 1;
-  border-image-source: linear-gradient(97.14deg, #7579FF 7.11%, #B224EF 97.04%);
+  border-image-source: #ffffff ;
+  /* border-image-source: linear-gradient(97.14deg, #7579FF 7.11%, #B224EF 97.04%); */
   border-radius: 0;
 }
 .faq-sec .question-area .accordion .accordion-item .accordion-header .accordion-button {
@@ -1966,7 +1967,7 @@ hr {
 }
 .dark-version .section-head .blog-btn {
   border-color: #cc1616;
-  color: #91CFEE;
+  color: #ffffff;
 }
 .dark-version .section-head .label {
   background-color: #cc1616;
@@ -2021,8 +2022,8 @@ hr {
 .dark-version .pricing-sec .schedule-content-wrap .schedule-btn,
 .dark-version .gallery-sec .schedule-content-wrap .schedule-btn,
 .dark-version .contact-sec .schedule-content-wrap .schedule-btn {
-  border-color: #91CFEE !important;
-  color: #91CFEE !important;
+  border-color: #cc1616 !important;
+  color: #ffffff !important;
 }
 .dark-version .about-sec .schedule-content-wrap .schedule-btn:hover,
 .dark-version .schedule-sec .schedule-content-wrap .schedule-btn:hover,
@@ -2139,15 +2140,15 @@ hr {
   background-color: #292F3A !important;
 }
 .dark-version .faq-sec .faq-btn {
-  border-color: #91CFEE !important;
-  color: #91CFEE !important;
+  border-color: #cc1616 !important;
+  color: #ffffff !important;
 }
 .dark-version .blog-sec .blog-cards-wrap .card {
   background-color: transparent;
 }
 .dark-version .blog-sec .blog-cards-wrap .card .card-body .label {
-  background-color: #3d5d6e;
-  color: #91CFEE;
+  background-color: #ffffff;
+  color: #cc1616;
 }
 .dark-version .blog-sec .blog-cards-wrap .card .card-body .card-title {
   color: #fff;
@@ -2156,7 +2157,7 @@ hr {
   color: #E8E8E8;
 }
 .dark-version .blog-sec .blog-cards-wrap .card .card-body .blog-btn {
-  color: #91CFEE;
+  color: #cc1616;
 }
 .dark-version .blog-sec .blog-cards-wrap .card .blog-dots-2 {
   opacity: 1;

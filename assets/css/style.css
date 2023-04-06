@@ -36,13 +36,14 @@ h2 {
 }
 
 .custom-btn {
-  border: 2px solid #6600CC;
+  /* border: 2px solid #6600CC; */
+  border: 2px solid #cc1616;
   background-color: transparent;
   border-radius: 32px;
   width: 150px;
   height: 50px;
   font-size: 18px;
-  color: #6600CC;
+  color: #cc1616;
   font-weight: 500;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -50,8 +51,9 @@ h2 {
 .custom-btn:hover {
   background-position: right center;
   /* change the direction of the change here */
-  color: #fff;
-  background-image: linear-gradient(97.14deg, #652da0 97.11%, #B224EF 7.04%);
+  color: #ffffff;
+  background: #cc1616;
+  /* background-image: linear-gradient(97.14deg, #652da0 97.11%, #B224EF 7.04%); */
   border-color: transparent;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -63,7 +65,8 @@ h2 {
   height: 50px;
   font-size: 18px;
   font-weight: 500;
-  background: linear-gradient(97.14deg, #7579FF 7.11%, #B224EF 97.04%);
+  background: #cc1616;
+  /* background: linear-gradient(97.14deg, #7579FF 7.11%, #B224EF 97.04%); */
   border-radius: 32px;
   text-align: center;
   color: white;
@@ -76,8 +79,9 @@ h2 {
 .custom-btn2:hover {
   background-position: right center;
   /* change the direction of the change here */
-  background-image: linear-gradient(97.14deg, #652da0 97.11%, #B224EF 7.04%);
-  color: #fff;
+  /* background-image: linear-gradient(97.14deg, #652da0 97.11%, #B224EF 7.04%); */
+  background: #ffffff;
+  color: #cc1616;
   text-decoration: none;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -115,8 +119,10 @@ h2 {
   transition: 0.7s;
 }
 .social li a:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#7579FF), to(#B224EF));
-  background: linear-gradient(#7579FF, #B224EF);
+  /* background: -webkit-gradient(linear, left top, left bottom, from(#7579FF), to(#B224EF)); */
+  /* background: linear-gradient(129deg, rgba(208,21,21,1) 77%, rgba(255,255,255,1) 98%); */
+  /* background: linear-gradient(#7579FF, #B224EF); */
+  background: #cc1616;
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
@@ -358,7 +364,7 @@ hr {
   font-weight: 400;
   font-size: 16px;
   line-height: 120%;
-  color: #BCBCBC;
+  color: #ffffff;
   margin-bottom: 40px;
 }
 .footer-area .footer-top .footer-about .title {
@@ -384,13 +390,13 @@ hr {
 }
 .footer-area .custom-item a {
   line-height: 3;
-  color: #BCBCBC;
+  color: #ffffff;
 }
 .footer-area hr {
   color: #212121;
 }
 .footer-area .footer-copyright-area span {
-  color: #BCBCBC;
+  color: #ffffff;
 }
 
 /* footer area end */
@@ -661,7 +667,7 @@ hr {
   color: #fff;
 }
 .about-sec .about-items-wrap .about-item .item-thumb .item-content .about-video .video-btn1:hover {
-  background-color: #7d207d;
+  background-color: #cc1616;
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
@@ -1797,7 +1803,8 @@ hr {
 }
 .info-sec .info-countdown .counter-box li strong {
   font-size: 52px;
-  background: linear-gradient(97.14deg, #7579FF 7.11%, #B224EF 97.04%);
+  background: #cc1616;
+  /* background: linear-gradient(97.14deg, #7579FF 7.11%, #B224EF 97.04%); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1837,7 +1844,8 @@ hr {
 .info-sec .information-area .mail .icon i,
 .info-sec .information-area .location .icon i,
 .info-sec .information-area .number .icon i {
-  color: #6600CC;
+  color: #cc1616;
+  /* color: #6600CC; */
 }
 .info-sec .information-area .mail a,
 .info-sec .information-area .location a,
@@ -1903,7 +1911,8 @@ hr {
 
 /* faq sec end */
 .dark-version {
-  background-color: #292F3A;
+  /* background-color: #292F3A; */
+  background-color: #17141d;
 }
 .dark-version .info-countdown {
   background-color: #333;
@@ -1950,12 +1959,12 @@ hr {
   color: #fff;
 }
 .dark-version .section-head .blog-btn {
-  border-color: #91CFEE;
+  border-color: #cc1616;
   color: #91CFEE;
 }
 .dark-version .section-head .label {
-  background-color: #3d5d6e;
-  color: #91CFEE;
+  background-color: #cc1616;
+  color: #ffffff;
 }
 .dark-version .section-head .title {
   color: #fff;

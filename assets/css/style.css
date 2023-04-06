@@ -2,6 +2,9 @@
 body {
   font-family: "Outfit", sans-serif;
 }
+#talks img {
+  border-radius: 20px;
+}
 
 .body-wrap {
   overflow: hidden;
@@ -519,7 +522,7 @@ hr {
   z-index: -1;
 }
 
-.item-video .img-3 {
+.item-image .img-3 {
   position: relative;
   overflow: hidden;
   border-radius: 20px;
@@ -527,7 +530,7 @@ hr {
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
-.item-video .img-3 img {
+.item-image .img-3 img {
   width: 100%;
   display: block;
 }
@@ -1851,6 +1854,10 @@ hr {
 .faq-sec {
   padding: 80px 0px;
 }
+.faq-sec .question-area .accordion-item {
+  padding: 0 20px 0 20px;
+  background-color: #292F3A;
+}
 .faq-sec .title-area .title {
   line-height: 44.2px;
   padding-right: 55px;
@@ -1903,7 +1910,7 @@ hr {
 
 /* faq sec end */
 .dark-version {
-  background-color: #292F3A;
+  background-color: #17141d;
 }
 .dark-version .info-countdown {
   background-color: #333;

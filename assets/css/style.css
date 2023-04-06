@@ -38,6 +38,10 @@ h2 {
   font-weight: 600;
 }
 
+.btn-close {
+  background-color: white;
+}
+
 .custom-btn {
   /* border: 2px solid #6600CC; */
   border: 2px solid #eb0028;

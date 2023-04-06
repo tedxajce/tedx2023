@@ -40,13 +40,13 @@ h2 {
 
 .custom-btn {
   /* border: 2px solid #6600CC; */
-  border: 2px solid #cc1616;
+  border: 2px solid #eb0028;
   background-color: transparent;
   border-radius: 32px;
   width: 150px;
   height: 50px;
   font-size: 18px;
-  color: #cc1616;
+  color: #eb0028;
   font-weight: 500;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -55,7 +55,7 @@ h2 {
   background-position: right center;
   /* change the direction of the change here */
   color: #ffffff;
-  background: #cc1616;
+  background: #eb0028;
   /* background-image: linear-gradient(97.14deg, #652da0 97.11%, #B224EF 7.04%); */
   border-color: transparent;
   -webkit-transition: all 0.4s ease-in-out;
@@ -68,7 +68,7 @@ h2 {
   height: 50px;
   font-size: 18px;
   font-weight: 500;
-  background: #cc1616;
+  background: #eb0028;
   /* background: linear-gradient(97.14deg, #7579FF 7.11%, #B224EF 97.04%); */
   border-radius: 32px;
   text-align: center;
@@ -84,7 +84,7 @@ h2 {
   /* change the direction of the change here */
   /* background-image: linear-gradient(97.14deg, #652da0 97.11%, #B224EF 7.04%); */
   background: #ffffff;
-  color: #cc1616;
+  color: #eb0028;
   text-decoration: none;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -125,7 +125,7 @@ h2 {
   /* background: -webkit-gradient(linear, left top, left bottom, from(#7579FF), to(#B224EF)); */
   /* background: linear-gradient(129deg, rgba(208,21,21,1) 77%, rgba(255,255,255,1) 98%); */
   /* background: linear-gradient(#7579FF, #B224EF); */
-  background: #cc1616;
+  background: #eb0028;
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
@@ -670,7 +670,7 @@ hr {
   color: #fff;
 }
 .about-sec .about-items-wrap .about-item .item-thumb .item-content .about-video .video-btn1:hover {
-  background-color: #cc1616;
+  background-color: #eb0028;
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
@@ -707,7 +707,7 @@ hr {
 }
 .blog-sec .section-head .blog-btn:hover {
   background-color: #ffffff;
-  color: #cc1616;
+  color: #eb0028;
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
@@ -796,7 +796,7 @@ hr {
   color: #797979;
 }
 .blog-sec .blog-cards-wrap .card .card-body .blog-btn {
-  color: #cc1616;
+  color: #eb0028;
   font-weight: 400;
   font-size: 14px;
   cursor: pointer;
@@ -1791,8 +1791,10 @@ hr {
   border-radius: 32px;
   position: relative;
   margin-bottom: 40px;
-  -webkit-box-shadow: 0px 40px 70px rgba(75, 3, 116, 0.15);
-          box-shadow: 0px 40px 70px rgba(75, 3, 116, 0.15);
+  -webkit-box-shadow: 0px 40px 20px #670112;
+  box-shadow: 0px 20px 40px #710113;
+  /* -webkit-box-shadow: 0px 40px 70px rgba(254, 254, 254, 0.15);
+  box-shadow: 0px 40px 70px rgba(255, 255, 255, 0.15); */
 }
 .info-sec .info-countdown .dots {
   position: absolute;
@@ -1806,7 +1808,7 @@ hr {
 }
 .info-sec .info-countdown .counter-box li strong {
   font-size: 52px;
-  background: #cc1616;
+  background: #eb0028;
   /* background: linear-gradient(97.14deg, #7579FF 7.11%, #B224EF 97.04%); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1847,7 +1849,7 @@ hr {
 .info-sec .information-area .mail .icon i,
 .info-sec .information-area .location .icon i,
 .info-sec .information-area .number .icon i {
-  color: #cc1616;
+  color: #eb0028;
   /* color: #6600CC; */
 }
 .info-sec .information-area .mail a,
@@ -1966,11 +1968,11 @@ hr {
   color: #fff;
 }
 .dark-version .section-head .blog-btn {
-  border-color: #cc1616;
+  border-color: #eb0028;
   color: #ffffff;
 }
 .dark-version .section-head .label {
-  background-color: #cc1616;
+  background-color: #eb0028;
   color: #ffffff;
 }
 .dark-version .section-head .title {
@@ -2022,7 +2024,7 @@ hr {
 .dark-version .pricing-sec .schedule-content-wrap .schedule-btn,
 .dark-version .gallery-sec .schedule-content-wrap .schedule-btn,
 .dark-version .contact-sec .schedule-content-wrap .schedule-btn {
-  border-color: #cc1616 !important;
+  border-color: #eb0028 !important;
   color: #ffffff !important;
 }
 .dark-version .about-sec .schedule-content-wrap .schedule-btn:hover,
@@ -2140,7 +2142,7 @@ hr {
   background-color: #292F3A !important;
 }
 .dark-version .faq-sec .faq-btn {
-  border-color: #cc1616 !important;
+  border-color: #eb0028 !important;
   color: #ffffff !important;
 }
 .dark-version .blog-sec .blog-cards-wrap .card {
@@ -2148,7 +2150,7 @@ hr {
 }
 .dark-version .blog-sec .blog-cards-wrap .card .card-body .label {
   background-color: #ffffff;
-  color: #cc1616;
+  color: #eb0028;
 }
 .dark-version .blog-sec .blog-cards-wrap .card .card-body .card-title {
   color: #fff;
@@ -2157,7 +2159,7 @@ hr {
   color: #E8E8E8;
 }
 .dark-version .blog-sec .blog-cards-wrap .card .card-body .blog-btn {
-  color: #cc1616;
+  color: #eb0028;
 }
 .dark-version .blog-sec .blog-cards-wrap .card .blog-dots-2 {
   opacity: 1;

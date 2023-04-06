@@ -2671,3 +2671,12 @@ hr {
     font-size: 22px;
   }
 }
+
+/* navbar fix */
+/* .custom-navbar {
+  background-color: black;
+} */
+
+.custom-navbar.scrolled {
+    background-color: #17141d !important;
+}

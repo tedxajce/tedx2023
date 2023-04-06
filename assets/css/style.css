@@ -297,6 +297,7 @@ hr {
 }
 
 .drop-down {
+  margin-top: 5px;
   display: none;
   transition: 0.6s;
   content: "";

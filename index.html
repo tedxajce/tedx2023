@@ -86,7 +86,8 @@
                       <div class="dropdown-thumb position-relative" style="
                             background-image: url(assets/images/banner/contact-bg.png);
                           ">
-                        <a class="dropdown-sub position-absolute" href="index.html#">Register Now</a>
+                        <a class="dropdown-sub position-absolute" data-bs-toggle="modal" data-bs-target="#exampleModal" href="index.html#">Register Now</a> 
+                       
                       </div>
                     </div>
                   </div>
@@ -336,7 +337,7 @@
                 <div class="icon">
                   <img src="assets/images/icon/mail.svg" alt="Mail" />
                 </div>
-                <a href="index.html#" class="mail-link">tedxajce@gmail.com</a>
+                <a href="mailto:tedxajce@gmail.com" class="mail-link">tedxajce@gmail.com</a>
               </div>
             </div>
             <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="800">
@@ -344,7 +345,7 @@
                 <div class="icon">
                   <img src="assets/images/icon/map-pin.svg" alt="Map" />
                 </div>
-                <a href="index.html#" class="location-link">Amal Jyothi College of Engineering</a>
+                <a href="https://www.google.com/maps/place/Amal+Jyothi+College+of+Engineering/@9.5286371,76.8192296,17z/data=!3m1!4b1!4m6!3m5!1s0x3b063626ed32c771:0xff305e1affdbb4b4!8m2!3d9.5286318!4d76.8234568!16s%2Fm%2F0cpbjkz" class="location-link">Amal Jyothi College of Engineering</a>
               </div>
             </div>
             <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="1000">
@@ -352,7 +353,7 @@
                 <div class="icon">
                   <img src="assets/images/icon/phone.svg" alt="Phone" />
                 </div>
-                <a href="index.html#" class="number-link">+91 97454 93845</a>
+                <a href="tel:+91 97454 93845" class="number-link">+91 97454 93845</a>
               </div>
             </div>
           </div>
@@ -2940,40 +2941,40 @@
                     </ul>
                   </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
+                <!-- <div class="col-sm-6 col-lg-4">
                   <div class="footer-about custom-item">
-                    <h5 class="title">About</h5>
+                    <h5 class="title">Navigation</h5>
                     <ul class="about-item">
-                      <li><a href="index.html">Conference Schedule</a></li>
-                      <li><a href="index.html">Buy Tickets</a></li>
-                      <li><a href="index.html">Sponsoring</a></li>
-                      <li><a href="index.html">Volunteer</a></li>
+                      <li><a href="index.html">Homepage</a></li>
+                      <li><a href="index.html">Talks</a></li>
+                      <li><a href="index.html">Speakers</a></li>
+                      <li><a href="index.html">Pricing</a></li>
                     </ul>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
             <div class="col-lg-6">
               <div class="row">
                 <div class="col-sm-6">
-                  <div class="footer-enterprise custom-item">
-                    <h5 class="title">Enterprise</h5>
-                    <ul class="enterprise-item">
-                      <li><a href="index.html">Committees</a></li>
-                      <li><a href="index.html">Advisory Boards</a></li>
-                      <li><a href="index.html">Apply to Speak</a></li>
-                      <li><a href="index.html">Register</a></li>
+                  <div class="footer-about custom-item">
+                    <h3 class="title">Navigation</h3>
+                    <ul class="about-item">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#talks">Talks</a></li>
+                      <li><a href="#speakers">Speakers</a></li>
+                      <li><a href="#pricing">Pricing</a></li>
                     </ul>
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="footer-contact custom-item">
-                    <h5 class="title">Contact</h5>
+                    <h3 class="title">Contact</h3>
                     <ul class="contact-item">
-                      <li><a href="index.html">Help Desk</a></li>
-                      <li><a href="index.html">Comntact Us</a></li>
-                      <li><a href="index.html">Documentation</a></li>
-                      <li><a href="index.html">Newsletter</a></li>
+                      <li><a href="tel:9745493845">Adithya Krishnan - Organizer</a></li>
+                      <li><a href="tel:9811334463">Alan James - Co-Organizer</a></li>
+                      <li><a href="mailto:tedxajce@gmail.com">Email Us</a></li>
+                      <li><a href="https://www.google.com/maps/place/Amal+Jyothi+College+of+Engineering/@9.5286371,76.8192296,17z/data=!3m1!4b1!4m6!3m5!1s0x3b063626ed32c771:0xff305e1affdbb4b4!8m2!3d9.5286318!4d76.8234568!16s%2Fm%2F0cpbjkz">Address</a></li>
                     </ul>
                   </div>
                 </div>
@@ -2983,7 +2984,7 @@
         </div>
         <hr />
         <div class="footer-copyright-area text-center pb-3">
-          <span>© 2023 TEDxAJCE</span>
+          <span><strong>© 2023 TEDxAJCE</strong></span>
         </div>
       </div>
     </footer>
@@ -3129,7 +3130,7 @@
   <script src="assets/js/bootstrap.min.js"></script>
   <script>
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 50) {
+        if ($(this).scrollTop() > 30) {
             $('.custom-navbar').addClass('scrolled');
         } else {
             $('.custom-navbar').removeClass('scrolled');

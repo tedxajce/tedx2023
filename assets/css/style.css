@@ -312,7 +312,7 @@ hr {
 .drop-down .drop-down-wrap {
   width: 470px;
   height: 300px;
-  background-color: #fff;
+  background-color: #17141d;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -326,7 +326,7 @@ hr {
   margin-left: 8px;
 }
 .drop-down .drop-down-wrap .drop-down-menu .dropdown-item .item-content .item-title {
-  color: #212121;
+  color: #ffffff;
   font-size: 16px;
   line-height: 19px;
   margin: 0px;
@@ -335,7 +335,7 @@ hr {
 .drop-down .drop-down-wrap .drop-down-menu .dropdown-item .item-content .item-sub {
   font-size: 12px;
   line-height: 12px;
-  color: #797979;
+  color: #ababab;
 }
 .drop-down .drop-down-wrap .dropdown-thumb {
   background-size: cover;
@@ -380,21 +380,21 @@ hr {
   margin-bottom: 40px;
 }
 .footer-area .footer-top .footer-about .title {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   color: #fff;
   margin-left: 30px;
   margin-bottom: 35px;
 }
 .footer-area .footer-top .footer-enterprise .title {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   color: #fff;
   margin-left: 30px;
   margin-bottom: 35px;
 }
 .footer-area .footer-top .footer-contact .title {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   color: #fff;
   margin-left: 30px;

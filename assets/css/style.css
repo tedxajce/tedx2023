@@ -74,13 +74,13 @@ h2 {
   height: 50px;
   font-size: 18px;
   font-weight: 500;
-  background-image: linear-gradient(97.14deg, #9c0b0b 97.11%, #eb0028 7.04%);
-  background: #ffffff;
-  color: #eb0028;
+  background: #eb0028;
+  background: linear-gradient(97.14deg, #9c0b0b 7.11%, #eb0028 97.04%);
   border-radius: 32px;
   text-align: center;
+  color: white;
   -webkit-box-shadow: 0 0 2px #eee;
-  box-shadow: 0 0 2px #eee;
+          box-shadow: 0 0 2px #eee;
   display: inline-block;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -88,9 +88,9 @@ h2 {
 .custom-btn2:hover {
   background-position: right center;
   /* change the direction of the change here */
-  color: white;
-  background: #eb0028;
-  background: linear-gradient(97.14deg, #9c0b0b 7.11%, #eb0028 97.04%);
+  background-image: linear-gradient(97.14deg, #9c0b0b 97.11%, #eb0028 7.04%);
+  background: #ffffff;
+  color: #eb0028;
   text-decoration: none;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;

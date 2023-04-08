@@ -51,7 +51,7 @@
           <div class="collapse navbar-collapse d-none d-lg-block">
             <ul class="navbar-nav m-auto">
               <li class="nav-item">
-                <a href="index.html" class="nav-link py-3">Homepage</a>
+                <a href="index.html#" class="nav-link py-3">Homepage</a>
                 <div class="drop-down">
                   <div class="row drop-down-wrap g-0">
                     <div class="col-7">
@@ -94,6 +94,9 @@
                 </div>
               </li>
               <li class="nav-item">
+                <a href="index.html#blog-sec" class="nav-link py-3">About</a>
+              </li>
+              <li class="nav-item">
                 <a href="index.html#talks" class="nav-link py-3">Talks</a>
               </li>
               <li class="nav-item">
@@ -132,7 +135,7 @@
                 <div class="dropdown mt-3">
                   <ul class="navbar-nav m-auto">
                     <li class="nav-item">
-                      <a href="index.html" class="nav-link py-3">Homepage</a>
+                      <a href="index.html#" class="nav-link py-3">Homepage</a>
                       <div class="drop-down">
                         <div class="row drop-down-wrap g-0">
                           <div class="col-7">
@@ -172,6 +175,9 @@
                           </div>
                         </div>
                       </div>
+                    </li>
+                    <li class="nav-item">
+                      <a href="index.html#blog-sec" class="nav-link py-3">About</a>
                     </li>
                     <li class="nav-item">
                       <a href="index.html#talks" class="nav-link py-3">Talks</a>
@@ -345,8 +351,11 @@
     </div>
     <!-- info sec end -->
     <!-- blog sec start -->
-    <section class="blog-sec" data-aos="fade-up" data-aos-duration="1000">
+    <section id="blog-sec" class="blog-sec pt-0" data-aos="fade-up" data-aos-duration="1000">
       <div class="container">
+        <div class="section-head col-xl-9 m-auto text-center mb-5">
+          <span class="label">About</span>
+        </div>
         <div class="blog-cards-wrap zoom-gallery">
           <div class="dots img-moving-anim1">
             <img src="assets/images/dots/dots15.png" alt="Shadow Image" class="blog-dots-1" />
@@ -443,11 +452,10 @@
     <section id="talks" class="about-sec">
       <div class="container">
         <div class="section-head col-xl-9 m-auto text-center mb-5">
-          <span class="label">Welcome to TEDxAJCE 2023</span>
+          <span class="label">Previous Talks</span>
           <h1 class="title mb-4">
             Experience our previous talks that caught eyes of a large audience
           </h1>
-          <p class="desc mx-3">TEDxAJCE Talks</p>
         </div>
         <div class="about-items-wrap" data-aos="fade-right" data-aos-duration="1000">
           <div class="row g-4">
@@ -956,7 +964,7 @@
                   <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      Yes, lunch and refreshments are standard for all ticket catagories.
+                      Yes, lunch and refreshments are standard for all ticket categories.
                     </div>
                   </div>
                 </div>
@@ -1213,17 +1221,6 @@
                     </ul>
                   </div>
                 </div>
-                <!-- <div class="col-sm-6 col-lg-4">
-                  <div class="footer-about custom-item">
-                    <h5 class="title">Navigation</h5>
-                    <ul class="about-item">
-                      <li><a href="index.html">Homepage</a></li>
-                      <li><a href="index.html">Talks</a></li>
-                      <li><a href="index.html">Speakers</a></li>
-                      <li><a href="index.html">Pricing</a></li>
-                    </ul>
-                  </div>
-                </div> -->
               </div>
             </div>
             <div class="col-lg-6">
@@ -1371,25 +1368,9 @@
                   class="fa-solid fa-play"></i></a>
             </div>
 
-            <div id="eventbrite-widget-container-443112520477"></div>
-
-            <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-            <script type="text/javascript">
-              var exampleCallback = function () {
-                console.log("Order complete!");
-              };
-
-              window.EBWidgets.createWidget({
-                // Required
-                widgetType: "checkout",
-                eventId: "443112520477",
-                iframeContainerId: "eventbrite-widget-container-443112520477",
-
-                // Optional
-                iframeContainerHeight: 425, // Widget height in pixels. Defaults to a minimum of 425px if not provided
-                onOrderComplete: exampleCallback, // Method called when an order has successfully completed
-              });
-            </script>
+            <div id="eventbrite-widget-container-443112520477" class="text-center mb-3 mt-3">
+              Event Registration will start soon
+            </div>
           </div>
         </div>
       </div>

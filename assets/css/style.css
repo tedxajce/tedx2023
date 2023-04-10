@@ -1782,7 +1782,12 @@ hr {
 /* pricing sec end */
 /* video sec start */
 .video-sec {
-  padding: 100px 0px;
+  padding: 100px 0px 50px 0px;
+}
+.video-sec .section-head .title {
+  font-weight: normal;
+  font-family: Helvetica;
+  letter-spacing: 8px;
 }
 .video-sec .video-wrap {
   position: relative;
@@ -1831,11 +1836,7 @@ hr {
 }
 .video-sec .video-content-wrap {
   position: relative;
-  margin-left: 108px;
-}
-.video-sec .video-content-wrap .title {
-  margin-bottom: 25px;
-  color: #f1f1f1;
+  margin-left: 90px;
 }
 .video-sec .video-content-wrap .desc {
   font-size: 18px;
@@ -1850,22 +1851,13 @@ hr {
   font-weight: 600;
   color: #f1f1f1;
 }
-.video-sec .video-content-wrap .management span {
-  background: linear-gradient(97.14deg, #eb0028 7.11%, #c40000 97.04%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  letter-spacing: 8px;
-  font-size: 1.5em;
-  font-family: Helvetica;
-}
 #first-char {
   background: linear-gradient(97.14deg, #eb0028 7.11%, #c40000 97.04%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-weight: bold;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 .video-sec .video-content-wrap .dots {
   position: absolute;
@@ -3141,6 +3133,7 @@ hr {
 }
 .label {
   width: 15em !important;
+  border-radius: 8px !important;
 }
 #view-gallery {
   display: none;

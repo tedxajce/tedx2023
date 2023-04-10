@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  font-family: "redhat", sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 #talks img {
   border-radius: 20px;
@@ -383,7 +383,7 @@ hr {
   display: block;
 }
 .footer-area .footer-top .footer-info .footer-desc {
-  font-family: "redhat";
+  font-family: Helvetica;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -498,7 +498,7 @@ hr {
   opacity: 0.5;
 }
 .hero-sec .highlight-text {
-  font-family: "redhat";
+  font-family: Helvetica;
   font-size: 200px;
   line-height: 260px;
   color: rgba(255, 255, 255, 0.5);
@@ -532,7 +532,7 @@ hr {
   color: #eb0028;
 }
 .hero-sec .item-content2 .highlight-text2 {
-  font-family: "redhat";
+  font-family: Helvetica;
   font-weight: 600;
   font-size: 200px;
   line-height: 260px;
@@ -600,7 +600,7 @@ hr {
 }
 
 .highlight-text3 {
-  font-family: "redhat";
+  font-family: Helvetica;
   font-weight: 600;
   font-size: 200px;
   line-height: 260px;
@@ -837,7 +837,7 @@ hr {
   margin-bottom: 24px;
 }
 .blog-sec .blog-cards-wrap .card .card-body .card-title {
-  font-family: "redhat";
+  font-family: Helvetica;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -845,7 +845,7 @@ hr {
   color: #212121;
 }
 .blog-sec .blog-cards-wrap .card .card-body .card-desc {
-  font-family: "redhat";
+  font-family: Helvetica;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1840,8 +1840,7 @@ hr {
 .video-sec .video-content-wrap .desc {
   font-size: 18px;
   color: #dfdfdf;
-  margin-right: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 .video-sec .video-content-wrap .management {
   margin-bottom: 20px;
@@ -1852,12 +1851,21 @@ hr {
   color: #f1f1f1;
 }
 .video-sec .video-content-wrap .management span {
-  background: linear-gradient(97.14deg, #eb0028 7.11%, #640414 97.04%);
+  background: linear-gradient(97.14deg, #eb0028 7.11%, #c40000 97.04%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-size: 50px;
-  display: block;
+  letter-spacing: 8px;
+  font-size: 1.5em;
+  font-family: Helvetica;
+}
+#first-char {
+  background: linear-gradient(97.14deg, #eb0028 7.11%, #c40000 97.04%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+  letter-spacing: 5px;
 }
 .video-sec .video-content-wrap .dots {
   position: absolute;
@@ -3133,4 +3141,7 @@ hr {
 }
 .label {
   width: 15em !important;
+}
+#view-gallery {
+  display: none;
 }

@@ -1688,7 +1688,7 @@ hr {
   position: relative;
 }
 .pricing-cart-wrap .card {
-  border: 1px solid #e8e8e8;
+  border: 1px solid transparent !important;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   border-radius: 20px !important;
@@ -1727,12 +1727,12 @@ hr {
   line-height: 2;
   margin-bottom: 30px;
 }
-.pricing-cart-wrap .card .card-body ul li a {
+.pricing-cart-wrap .card .card-body ul li p {
   font-size: 16px;
-  color: #212121;
+  color: white;
 }
-.pricing-cart-wrap .card .card-body ul li a i {
-  color: #eb0028;
+.pricing-cart-wrap .card .card-body ul li p i, #payment-box ul li p i {
+  color: green;
   padding-right: 8px;
 }
 .pricing-cart-wrap .card .card-body .card-btn {
@@ -3137,4 +3137,11 @@ hr {
 }
 #view-gallery {
   display: none;
+}
+#payment-box form {
+  text-align: center;
+}
+#payment-box ul {
+  margin: auto;
+  padding: 2em;
 }

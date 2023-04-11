@@ -3109,7 +3109,7 @@ hr {
 
 /* SPEAKER section */
 .speakers-gallery-items-wrap .card {
-  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3); */
   border: none;
   margin-bottom: 30px;
   background-color: transparent;

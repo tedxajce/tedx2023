@@ -1481,12 +1481,18 @@
                   approached, a mix of nerves and anticipation enveloped the
                   team. On the day of the event, we felt an overwhelming sense
                   of pride and achievement as everything fell seamlessly into
-                  place. The engaging talks and thought-provoking discussions,
-                  combined with the positive feedback from attendees, created a
-                  moment that we will cherish forever. It is heartening to see
-                  the momentum of the event continue every year, and hope for
-                  many more successful events in the coming years!”
+                  place. The engaging talk
+                  <span id="collapse1" style="display: none;">
+                    combined with the positive feedback from attendees, created a
+                    moment that we will cherish forever. It is heartening to see
+                    the momentum of the event continue every year, and hope for
+                    many more successful events in the coming years!” 
+                  </span>
+                  <a href="#collapse1" class="text-toggle">Read More</a> 
+
+
                 </p>
+
                 <div class="profile">
                   <div class="thumb">
                     <img
@@ -1532,9 +1538,12 @@
                   work online. However, we had an amazing team of volunteers
                   spread across the world, and I have to say, we did pull off
                   something remarkable. It was amazing to see how a group of
-                  dedicated people can achieve something when we all have one
-                  mission. The experience is truly one of a kind, the lessons
-                  learned and the bonds made are going to last for a lifetime.”
+                  dedicated people can achieve something when we all have one mission.
+                  <span id="collapse2" style="display: none;">
+                    The experience is truly one of a kind, the lessons
+                    learned and the bonds made are going to last for a lifetime.”
+                  </span>
+                  <a href="#collapse2" class="text-toggle">Read More</a> 
                 </p>
                 <div class="profile">
                   <div class="thumb">
@@ -2372,6 +2381,20 @@
           $(".custom-navbar").removeClass("scrolled");
         }
       });
+      $(document).ready(function () {
+      $('.text-toggle').click(function () {
+          var collapse_content_selector = $(this).attr('href');
+          var toggle_switch = $(this);
+          $(collapse_content_selector).toggle(function () {
+              if ($(this).css('display') == 'none') {
+                  toggle_switch.html('Read More');
+              } else {
+                  toggle_switch.html('Read Less');
+              }
+          });
+      });
+
+  });
     </script>
 
     <!-- slick -->

@@ -341,7 +341,7 @@ hr {
 .drop-down .drop-down-wrap {
   width: 470px;
   height: 300px;
-  background-color: #17141d;
+  background-color: #292f3a;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -3191,3 +3191,6 @@ hr {
   margin-right: 18px;
 }
 /*flipper-card*/
+.card-title span {
+  color: #eb0028;
+}
